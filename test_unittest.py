@@ -6,8 +6,7 @@ import json
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from unittest.mock import patch
 
-# Import the code you want to test
-from main import MyServer  # Replace 'your_module' with the actual module name
+from main import MyServer 
 
 class TestMyServer(unittest.TestCase):
 
